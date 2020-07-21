@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    font-family: 'Multi',sans-serif;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    align-items: center; 
+}
+.header__img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
