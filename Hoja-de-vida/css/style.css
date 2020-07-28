@@ -20,7 +20,7 @@ body,
 .header__menu--title {
   grid-column: 6/12;
   grid-row: 2;
-  font-size: 60px;
+  font-size: 55px;
 }
 .header__menu--subtitle {
   grid-column: 6/11;
@@ -32,7 +32,7 @@ body,
 .aboutme {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -45,5 +45,31 @@ body,
 
 .aboutme__text{
     grid-column: 6/12;
+    text-align: justify;
+}
+.experience{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.experience__detail{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    background-color: rgb(61, 68, 76);
+    color: azure;
+    text-align: center;
+}
+.experience__text{
+    grid-column: 6/12;
+    grid-row: 2/3;
+    
+}
+.experience__text--img{
+    grid-column: 6/8;
+}
+.experience__text--unit{
+    grid-column: 8/12;
     text-align: justify;
 }
