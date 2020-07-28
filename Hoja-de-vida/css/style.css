@@ -13,14 +13,20 @@ body,
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .header__menu--img {
+  display: grid;
   grid-column: 1/5;
   grid-row: 1/5;
   background-color: rgb(61, 68, 76);
+  place-items: center;
+}
+.header__menu--img img{
+  grid-column: 1/2;
+  width: 100%;
 }
 .header__menu--title {
   grid-column: 6/12;
   grid-row: 2;
-  font-size: 55px;
+  font-size: 60px;
 }
 .header__menu--subtitle {
   grid-column: 6/11;
@@ -37,10 +43,12 @@ body,
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .aboutme__title{
-    grid-column: 1/5;
+    display:grid;
+  grid-column: 1/5;
     background-color: rgb(61, 68, 76);
     color: azure;
-    text-align: center;
+    place-items: center
+  ;
 }
 
 .aboutme__text{
@@ -55,11 +63,12 @@ body,
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .experience__detail{
+    display: grid;
     grid-column: 1/5;
     grid-row: 1/5;
     background-color: rgb(61, 68, 76);
     color: azure;
-    text-align: center;
+    place-items: center;
 }
 .experience__text{
     grid-column: 6/12;
@@ -67,7 +76,9 @@ body,
     
 }
 .experience__text--img{
-    grid-column: 6/8;
+  display: grid;
+  grid-column: 6/8;
+  place-items: center;
 }
 .experience__text--unit{
     grid-column: 8/12;
