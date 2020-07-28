@@ -1,25 +1,49 @@
-html, body, .grid-container { height: 100%; margin: 0px; }
+html,
+body,
+.grid-container {
+  height: 100%;
+  margin: 0px;
+}
 
 .header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  grid-template-rows: repeat(4, 1fr);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .header__menu--img {
-    grid-column: 1/5;
-    grid-row: 1/7;
-    background-color: rgb(61, 68, 76);
+  grid-column: 1/5;
+  grid-row: 1/5;
+  background-color: rgb(61, 68, 76);
 }
 .header__menu--title {
-    grid-column: 6/12;
-    grid-row: 3;
-    font-size: 60px;
+  grid-column: 6/12;
+  grid-row: 2;
+  font-size: 60px;
 }
 .header__menu--subtitle {
-    grid-column: 6/11;
-    grid-row: 4;
-    font-size: 25px;
-    justify-content: center;
-    color:  rgb(49, 141, 204);
+  grid-column: 6/11;
+  grid-row: 3;
+  font-size: 25px;
+  justify-content: center;
+  color: rgb(49, 141, 204);
+}
+.aboutme {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aboutme__title{
+    grid-column: 1/5;
+    background-color: rgb(61, 68, 76);
+    color: azure;
+    text-align: center;
+}
+
+.aboutme__text{
+    grid-column: 6/12;
+    text-align: justify;
 }
