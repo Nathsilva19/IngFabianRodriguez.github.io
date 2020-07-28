@@ -21,7 +21,7 @@ body,
 }
 .header__menu--img img{
   grid-column: 1/2;
-  width: 100%;
+  width: 10%;
 }
 .header__menu--title {
   grid-column: 6/12;
