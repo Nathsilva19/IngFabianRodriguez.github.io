@@ -21,7 +21,6 @@ body,
 }
 .header__menu--img img{
   grid-column: 1/2;
-  width: 100%;
 }
 .header__menu--title {
   grid-column: 6/12;
@@ -62,10 +61,10 @@ body,
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.experience__detail{
+.experience__title{
     display: grid;
     grid-column: 1/5;
-    grid-row: 1/5;
+    grid-row: 1/4;
     background-color: rgb(61, 68, 76);
     color: azure;
     place-items: center;
@@ -83,4 +82,9 @@ body,
 .experience__text--unit{
     grid-column: 8/12;
     text-align: justify;
+    color: rgb(49, 141, 204);
+}
+
+.experience__text--unit p{
+  color: black;
 }
